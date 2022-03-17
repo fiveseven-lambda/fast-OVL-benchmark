@@ -1,6 +1,6 @@
 use itertools::Itertools;
 
-pub fn p_values(n: u32, k: u32) -> f64 {
+pub fn p_value(n: u32, k: u32) -> f64 {
     let un = n as usize;
     let mut count = 0;
     let mut total = 0;
